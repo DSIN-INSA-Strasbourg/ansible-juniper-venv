@@ -59,7 +59,7 @@ Si les pré-requis sont satisfaits, il suffit de lancer l'une de ces commandes, 
 ### Ce qui est mis en place, et où
 
 - Le virtualenv et les dépendances Python sont installées dans le dossier `.venv-ansible`
-- Les dépendances Ansible (rôles, collection) et le cache d'ansible-galaxy dans le dossier `.ansible`
+- Les dépendances Ansible (rôles, collections) et le cache d'ansible-galaxy dans le dossier `.ansible`
 - L'éventuelle configuration VSCode est installée dans le dossier `.vscode`
 
 ## Utilisation des fichiers d'exemple pour créer la configuration initiale
