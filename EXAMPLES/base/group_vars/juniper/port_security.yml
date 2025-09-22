@@ -1,0 +1,13 @@
+---
+ex_config_stormcontrol_bandwidthlevel: 5000
+ex_config_stormcontrol_shutdown: true
+ex_config_stormcontrol_disable_timeout: 600
+ex_config_stormcontrol_monitor_broadcast: true
+ex_config_stormcontrol_monitor_multicast: false
+ex_config_stormcontrol_monitor_registered_multicast: false
+ex_config_stormcontrol_monitor_unregistered_multicast: false
+ex_config_stormcontrol_monitor_unknown_unicast: false
+
+ex_config_portsecurity_enable_dhcpsnooping: true
+ex_config_portsecurity_enable_dynamic_arp_inspection: true # Can't be enabled if ex_config_portsecurity_enable_dhcpsnooping is set to no
+ex_config_portsecurity_enable_ip_source_guard: true # Can't be enabled if ex_config_portsecurity_enable_dhcpsnooping is set to no

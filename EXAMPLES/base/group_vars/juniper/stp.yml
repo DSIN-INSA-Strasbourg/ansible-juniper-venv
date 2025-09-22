@@ -1,0 +1,10 @@
+---
+# Uncomment to enable root-protection
+# ex_config_enable_rootprotection: true
+
+# Default stp settings (STP standard configuration)
+ex_config_stp:
+  protocol: rstp
+
+ex_config_stp_default_bridge_priority: 32k
+ex_config_stp_default_edge_link_cost: "200000000"

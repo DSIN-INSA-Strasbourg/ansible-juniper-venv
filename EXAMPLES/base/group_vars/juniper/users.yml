@@ -1,0 +1,21 @@
+---
+ex_config_password_salt: MYSALT
+
+ex_config_root_user:
+  password: "S3cReT_r0oT_p4s5w0rD"  # You should consider using ansible-vault to store sensitive data
+
+ex_config_users:
+  - login: user1
+    uid: 1001
+    class: super-user
+    ssh_pubkeys:
+      ssh-rsa: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCFmhOwrh9kq8fJW1ryDKad/5zD0k4yN8jfLg/UVKi1L1VKIUL7x+0MKTDqYGfg/e/elW7h3sJxX3cjvfPDqyqOPGjQvoseBF9ESZe+TR\
+                p6AQ6NPmT1NlqEO+FufxWopT5oUxiRQYsgZtFfTMHS0EmgcU8oOU0jO/Twzdp0s/cg5LpTwj85nndlMAROJSuFFPmJ6YWMGIVkk0FtpPEFbJ0yoav/50P1GwyyltkF5VF8HtN7bqrUSLAe\
+                ffGPwN8HnGOWERxceqStKdJpwr8UOJgmNNTx3z9K6E60tlNFSyBpMaeEVtip4dl7+CZG7kpqD/bTVsoBgT6RdjEpnKfRSsdh user1@example.com"
+  - login: user2
+    uid: 1002
+    class: super-user
+    ssh_pubkeys:
+      ssh-rsa: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCltljqGphDIEQl7TtuJws6V338X0RAISEsAgyy1/AdDKmYN8bSkNoLUXwkRggFmMVTsLAfQxZe1Lk3IvyoCwfInq2m3iJQ3x6XiFPr7h\
+                U5rbzQHu/qFQBsezUSe2c6wse8jpjfMURSrH8DF1lzf+4XPLEDE4fPrA8ArtULo4rkfrMJSeXf7D83kPR5ia4vl7Crhrt/4TPeUJvlO+by1VboonZSfZfEg84HqSQd3fbXMzkDuDAFSfog\
+                CEIsRFzXE5mhI+BY/drNeTBPof07tSNorPHkIEi0OrJ3/qtTDYEWgZJzwVQLyF9MpOrAjKlx/ABU/tzPScwn2B64VroCpyxd user2@example.com"

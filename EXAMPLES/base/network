@@ -1,0 +1,59 @@
+juniper_ex2200:
+  hosts:
+
+juniper_ex2300:
+  hosts:
+
+juniper_ex3300:
+  hosts:
+    distribution-003:
+
+juniper_ex3400:
+  hosts:
+
+juniper_ex4100:
+  hosts:
+    distribution-004:
+
+juniper_ex4300:
+  hosts:
+    datacenter-002:
+
+juniper_ex4600:
+  hosts:
+    datacenter-001:
+
+juniper_ex4650:
+  hosts:
+
+juniper_datacenter:
+  vars:
+    ansible_group_priority: 10 # Required to override values defined in 'juniper' group
+  hosts:
+    datacenter-001:
+    datacenter-002:
+
+juniper:
+  children:
+    juniper_ex2200:
+    juniper_ex2300:
+    juniper_ex3300:
+    juniper_ex3400:
+    juniper_ex4100:
+    juniper_ex4300:
+    juniper_ex4600:
+    juniper_ex4650:
+
+juniper_els:
+  children:
+    juniper_ex2300:
+    juniper_ex3400:
+    juniper_ex4100:
+    juniper_ex4300:
+    juniper_ex4600:
+    juniper_ex4650:
+
+# Critical switches, don't update firmwares without confirmation
+juniper_critical_devices:
+  children:
+    juniper_datacenter:

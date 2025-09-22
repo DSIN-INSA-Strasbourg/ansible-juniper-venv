@@ -1,0 +1,9 @@
+---
+ex_firmware_dir: "EX4300"
+ex_firmware: "jinstall-ex-4300-21.4R3-S11.3-signed.tgz"
+ex_firmware_validate: false
+
+ex_firmware_snapshot_cmd: "request system snapshot media internal slice alternate"
+
+# Default cos forwarding-class "expedited-forwarding" queue number is 5 on legacy devices
+cos_fc_expedited_forwarding_queuenum: 1

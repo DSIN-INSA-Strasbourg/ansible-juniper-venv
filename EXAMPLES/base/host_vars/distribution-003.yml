@@ -1,0 +1,334 @@
+---
+# Documentation:
+# https://github.com/DSIN-INSA-Strasbourg/ansible-juniper-collection/blob/main/collections/ansible_collections/insa_strasbourg/juniper/docs/ex_config.fr.md
+
+ex_config_hostname: distribution-003
+ex_config_location: CHANGE ME
+ex_config_ipaddress: 192.168.250.3
+ex_config_netmask: 255.255.255.0
+ex_config_gateway: 192.168.250.254
+
+# ex_config_poeenabled: false
+
+
+ex_config_interfaces:
+  - name: ge-0/0/0
+    description: AP01
+    poe: true
+    vlans:
+      - wifi
+
+  - name: ge-0/0/1
+    description: AP02
+    poe: true
+    vlans:
+      - wifi
+
+  - name: ge-0/0/2
+    description: host-emp-001
+    toip: true
+    vlans:
+      - employees
+
+  - name: ge-0/0/3
+    description: host-emp-002
+    toip: true
+    vlans:
+      - employees
+
+  - name: ge-0/0/4
+    description: host-stu-001
+    vlans:
+      - students
+
+  - name: ge-0/0/5
+    description: host-stu-002
+    vlans:
+      - students
+
+  - name: ge-0/0/6
+    description: host-mgt-001
+    toip: true
+    vlans:
+      - management
+
+  - name: ge-0/0/7
+    description: host-mgt-002
+    toip: true
+    vlans:
+      - management
+
+  - name: ge-0/0/8
+    description:
+    disabled: true
+    vlans:
+      - students
+
+  - name: ge-0/0/9
+    description:
+    disabled: true
+    vlans:
+      - students
+
+  - name: ge-0/0/10
+    description:
+    disabled: true
+    vlans:
+      - students
+
+  - name: ge-0/0/11
+    description:
+    disabled: true
+    vlans:
+      - students
+
+  - name: ge-0/0/12
+    description:
+    disabled: true
+    vlans:
+      - students
+
+  - name: ge-0/0/13
+    description:
+    disabled: true
+    vlans:
+      - students
+
+  - name: ge-0/0/14
+    description:
+    disabled: true
+    vlans:
+      - students
+
+  - name: ge-0/0/15
+    description:
+    disabled: true
+    vlans:
+      - students
+
+  - name: ge-0/0/16
+    description:
+    disabled: true
+    vlans:
+      - students
+
+  - name: ge-0/0/17
+    description:
+    disabled: true
+    vlans:
+      - students
+
+  - name: ge-0/0/18
+    description:
+    disabled: true
+    vlans:
+      - students
+
+  - name: ge-0/0/19
+    description:
+    disabled: true
+    vlans:
+      - students
+
+  - name: ge-0/0/20
+    description:
+    disabled: true
+    vlans:
+      - students
+
+  - name: ge-0/0/21
+    description:
+    disabled: true
+    vlans:
+      - students
+
+  - name: ge-0/0/22
+    description:
+    disabled: true
+    vlans:
+      - students
+
+  - name: ge-0/0/23
+    description:
+    disabled: true
+    vlans:
+      - students
+
+  - name: ge-0/0/24
+    description:
+    disabled: true
+    vlans:
+      - students
+
+  - name: ge-0/0/25
+    description:
+    disabled: true
+    vlans:
+      - students
+
+  - name: ge-0/0/26
+    description:
+    disabled: true
+    vlans:
+      - students
+
+  - name: ge-0/0/27
+    description:
+    disabled: true
+    vlans:
+      - students
+
+  - name: ge-0/0/28
+    description:
+    disabled: true
+    vlans:
+      - students
+
+  - name: ge-0/0/29
+    description:
+    disabled: true
+    vlans:
+      - students
+
+  - name: ge-0/0/30
+    description:
+    disabled: true
+    vlans:
+      - students
+
+  - name: ge-0/0/31
+    description:
+    disabled: true
+    vlans:
+      - students
+
+  - name: ge-0/0/32
+    description:
+    disabled: true
+    vlans:
+      - students
+
+  - name: ge-0/0/33
+    description:
+    disabled: true
+    vlans:
+      - students
+
+  - name: ge-0/0/34
+    description:
+    disabled: true
+    vlans:
+      - students
+
+  - name: ge-0/0/35
+    description:
+    disabled: true
+    vlans:
+      - students
+
+  - name: ge-0/0/36
+    description:
+    disabled: true
+    vlans:
+      - students
+
+  - name: ge-0/0/37
+    description:
+    disabled: true
+    vlans:
+      - students
+
+  - name: ge-0/0/38
+    description:
+    disabled: true
+    vlans:
+      - students
+
+  - name: ge-0/0/39
+    description:
+    disabled: true
+    vlans:
+      - students
+
+  - name: ge-0/0/40
+    description:
+    disabled: true
+    vlans:
+      - students
+
+  - name: ge-0/0/41
+    description:
+    disabled: true
+    vlans:
+      - students
+
+  - name: ge-0/0/42
+    description:
+    disabled: true
+    vlans:
+      - students
+
+  - name: ge-0/0/43
+    description:
+    disabled: true
+    vlans:
+      - students
+
+  - name: ge-0/0/44
+    description:
+    disabled: true
+    vlans:
+      - students
+
+  - name: ge-0/0/45
+    description:
+    disabled: true
+    vlans:
+      - students
+
+  - name: ge-0/0/46
+    description:
+    disabled: true
+    vlans:
+      - students
+
+  - name: ge-0/0/47
+    description:
+    disabled: true
+    vlans:
+      - students
+
+
+
+
+
+  - name: xe-0/1/0
+    description:
+    disabled: true
+    trunk: true
+    trusted: true
+    vlans:
+      - all
+
+  - name: xe-0/1/1
+    description:
+    disabled: true
+    trunk: true
+    trusted: true
+    vlans:
+      - all
+
+  - name: xe-0/1/2
+    description:
+    disabled: true
+    trunk: true
+    trusted: true
+    vlans:
+      - all
+
+  - name: xe-0/1/3
+    description: datacenter-001
+    trunk: true
+    trusted: true
+    vlans:
+      - all

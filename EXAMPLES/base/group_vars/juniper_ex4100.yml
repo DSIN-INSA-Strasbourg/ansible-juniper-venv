@@ -1,0 +1,10 @@
+---
+ex_firmware_dir: "EX4100"
+ex_firmware: "junos-install-ex-arm-64-23.4R2-S4.11.tgz"
+ex_firmware_validate: false
+
+ex_firmware_snapshot_cmd: "request system snapshot recovery"
+ex_firmware_snapshot_version_format: "json"
+
+# Default cos forwarding-class "expedited-forwarding" queue number is 5 on legacy devices
+cos_fc_expedited_forwarding_queuenum: 1

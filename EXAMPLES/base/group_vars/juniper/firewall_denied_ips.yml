@@ -1,0 +1,9 @@
+---
+
+# ex_config_firewall_denied_ips:
+#   - ip: 192.168.42.42
+#     netmask: 255.255.255.255
+#     comment: filtered_host
+#   - ip: 192.168.18.0
+#     netmask: 255.255.255.0
+#     comment: Students subnet

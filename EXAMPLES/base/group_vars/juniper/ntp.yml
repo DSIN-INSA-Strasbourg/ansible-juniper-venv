@@ -1,0 +1,7 @@
+---
+
+ex_config_ntpservers:
+  - ip: 192.168.42.211
+    comment: ntp1.example.com
+  - ip: 192.168.42.212
+    comment: ntp2.example.com

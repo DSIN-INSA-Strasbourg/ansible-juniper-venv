@@ -1,0 +1,6 @@
+---
+# Base URL of web server where the firmware will be downloaded by te Juniper devices
+ex_firmware_baseurl: "https://www.example.com/PLEASE/SET/ME"
+
+# Reboot the next day at 01:00 AM
+ex_firmware_reboot_at: "{{ '%y%m%d0100' | strftime(ansible_date_time.epoch | int + 86400) }}"

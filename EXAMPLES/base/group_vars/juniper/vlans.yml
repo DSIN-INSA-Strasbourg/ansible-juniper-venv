@@ -1,0 +1,50 @@
+---
+
+# Vlans that are only set on the datacenter switches
+_vlans_datacenteronly:
+  - name: storage
+    description: Network storage
+    vlanid: 31
+    jumboframes: true
+    dhcpsnooping: false
+  - name: wan
+    description: "WAN"
+    vlanid: 100
+    dhcpsnooping: false
+
+# Vlans set on every switches (distribution vlans)
+_vlans_base:
+  - name: management
+    description: Management
+    vlanid: 2
+    dhcpsnooping: false
+  - name: employees
+    description: Employees
+    vlanid: 10
+  - name: students
+    description: Students
+    vlanid: 11
+  - name: ipphones
+    description: ToIP
+    vlanid: 21
+  - name: wifi
+    description: Wifi
+    vlanid: 22
+    dhcpsnooping: false
+
+# Compose the complete datacenter vlans list
+_vlans_datacenter: "{{ _vlans_base + _vlans_datacenteronly }}"
+
+# Compose a list containing only the datacenter vlans names
+# This variable may be used to set the vlan list on datacenter interfaces trunks
+vlans_datacenter: "{{ _vlans_datacenter | map(attribute='name') | sort | list }}"
+
+# Compose a list containing only the distribution vlans names
+# This variable may be used to set the vlan list on datacenter interfaces trunks
+vlans_base: "{{ _vlans_base | map(attribute='name') | sort | list }}"
+
+# VLAN ToIP
+ex_config_toip_vlan: ipphones
+
+# Set distribution as vlans set by default
+ex_config_vlans: "{{ _vlans_base }}"

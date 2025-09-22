@@ -1,0 +1,9 @@
+---
+# Disabled in datacenter, where some devices may be configured without DHCP
+# and where devices should be trusted
+ex_config_portsecurity_enable_dynamic_arp_inspection: false
+ex_config_portsecurity_enable_ip_source_guard: false
+ex_config_stormcontrol_shutdown: false
+
+# Override vlan list
+ex_config_vlans: "{{ _vlans_datacenter }}"

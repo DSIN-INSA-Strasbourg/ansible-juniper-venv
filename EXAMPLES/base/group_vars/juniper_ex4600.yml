@@ -1,0 +1,10 @@
+---
+ex_firmware_dir: "EX4600"
+ex_firmware: "jinstall-host-ex-4600-21.4R3-S11.3-signed.tgz"
+ex_firmware_validate: false
+
+# No recovery snapshot on EX4600/EX4650
+ex_firmware_snapshot_cmd: ""
+
+# Default cos forwarding-class "expedited-forwarding" queue number is 5 on legacy devices
+cos_fc_expedited_forwarding_queuenum: 1

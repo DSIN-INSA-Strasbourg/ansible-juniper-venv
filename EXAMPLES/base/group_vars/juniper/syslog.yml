@@ -1,0 +1,9 @@
+---
+
+ex_config_syslogservers:
+  - ip: 192.168.42.214
+    port: 514
+    comment: syslog1.example.com
+  - ip: 192.168.42.215
+    port: 514
+    comment: syslog2.example.com

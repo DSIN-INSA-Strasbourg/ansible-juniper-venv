@@ -1,0 +1,289 @@
+---
+# Documentation:
+# https://github.com/DSIN-INSA-Strasbourg/ansible-juniper-collection/blob/main/collections/ansible_collections/insa_strasbourg/juniper/docs/ex_config.fr.md
+
+ex_config_hostname: REPLACEME
+ex_config_location: REPLACEME
+ex_config_ipaddress: REPLACEME
+ex_config_netmask: REPLACEME
+ex_config_gateway: REPLACEME
+
+# ex_config_poeenabled: false
+
+
+ex_config_interfaces:
+  - name: ge-0/0/0
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: ge-0/0/1
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: ge-0/0/2
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: ge-0/0/3
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: ge-0/0/4
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: ge-0/0/5
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: ge-0/0/6
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: ge-0/0/7
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: ge-0/0/8
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: ge-0/0/9
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: ge-0/0/10
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: ge-0/0/11
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: ge-0/0/12
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: ge-0/0/13
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: ge-0/0/14
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: ge-0/0/15
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: ge-0/0/16
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: ge-0/0/17
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: ge-0/0/18
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: ge-0/0/19
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: ge-0/0/20
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: ge-0/0/21
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: ge-0/0/22
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: ge-0/0/23
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+
+
+
+
+  - name: xe-0/1/0
+    description:
+    # native_vlan:
+    trunk: true
+    trusted: true
+    vlans:
+      - all
+
+  - name: xe-0/1/1
+    description:
+    # native_vlan:
+    trunk: true
+    trusted: true
+    vlans:
+      - all
+
+  - name: xe-0/1/2
+    description:
+    # native_vlan:
+    trunk: true
+    trusted: true
+    vlans:
+      - all
+
+  - name: xe-0/1/3
+    description:
+    # native_vlan:
+    trunk: true
+    trusted: true
+    vlans:
+      - all

@@ -1,0 +1,23 @@
+---
+
+ex_config_snmpcommunities:
+  - name: public
+    clients:
+      - ip: 192.168.42.213
+        netmask: 255.255.255.255
+        comment: monitoring.example.com
+
+ex_config_snmptrapgroups:
+  - name: monitoring
+    categories:
+      - authentication
+      - chassis
+      - link
+      - remote-operations
+      - routing
+      - rmon-alarm
+      - configuration
+      - services
+    targets:
+      - ip: 192.168.42.213
+        comment: monitoring.example.com

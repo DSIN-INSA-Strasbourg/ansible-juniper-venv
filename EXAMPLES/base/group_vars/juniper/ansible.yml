@@ -1,0 +1,14 @@
+---
+ansible_python_interpreter: python3
+
+ansible_become: false
+
+ansible_command_timeout: 1000
+
+# Required by junipernetworks.junos
+ansible_network_os: junos
+
+# Required by juniper.device if you're using another config file than the default "~/.ssh/config"
+# ssh_config: "~/path/to/.ssh/config.file"
+
+ex_config_save_dir: "{{ lookup('env', 'HOME') }}/.juniper-configs-example"

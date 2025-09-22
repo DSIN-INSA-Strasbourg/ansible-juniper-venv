@@ -1,0 +1,11 @@
+---
+ex_config_stormtrusted_default: false
+ex_config_bpdu_block_default: true
+# ex_config_dhcptrusted_default: false  # When unset, will enforce default Juniper logic : access ports untrusted, trunks trusted
+
+ex_config_trusted_settings:
+  is_uplink: true
+  bpdu_block: false
+  no_maxhosts: true
+  dhcptrusted: true
+  stormtrusted: true

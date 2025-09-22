@@ -1,0 +1,590 @@
+---
+# Documentation:
+# https://github.com/DSIN-INSA-Strasbourg/ansible-juniper-collection/blob/main/collections/ansible_collections/insa_strasbourg/juniper/docs/ex_config.fr.md
+
+ex_config_hostname: REPLACEME
+ex_config_location: REPLACEME
+ex_config_ipaddress: REPLACEME
+ex_config_netmask: REPLACEME
+ex_config_gateway: REPLACEME
+
+# ex_config_poeenabled: false
+
+
+ex_config_interfaces:
+  ###############################################
+  #    SFP28 (1G:"ge" / 10G:"xe" / 25G:"et")    #
+  # !!!               WARNING               !!! #
+  #      port speed if set for quad ports       #
+  ###############################################
+  - name: et-0/0/0
+    description:
+    speed: 25g # 10G if commented : valid values are 1g/25g. This setting will be applied to this interface and the 3 next
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: et-0/0/1
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: et-0/0/2
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: et-0/0/3
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: xe-0/0/4
+    description:
+    # speed: 25g # 10G if commented : valid values are 1g/25g. This setting will be applied to this interface and the 3 next
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: xe-0/0/5
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: xe-0/0/6
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: xe-0/0/7
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: xe-0/0/8
+    description:
+    # speed: 25g # 10G if commented : valid values are 1g/25g. This setting will be applied to this interface and the 3 next
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: xe-0/0/9
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: xe-0/0/10
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: xe-0/0/11
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: xe-0/0/12
+    description:
+    # speed: 25g # 10G if commented : valid values are 1g/25g. This setting will be applied to this interface and the 3 next
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: xe-0/0/13
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: xe-0/0/14
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: xe-0/0/15
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: xe-0/0/16
+    description:
+    # speed: 25g # 10G if commented : valid values are 1g/25g. This setting will be applied to this interface and the 3 next
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: xe-0/0/17
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: xe-0/0/18
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: xe-0/0/19
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: xe-0/0/20
+    description:
+    # speed: 25g # 10G if commented : valid values are 1g/25g. This setting will be applied to this interface and the 3 next
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: xe-0/0/21
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: xe-0/0/22
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: xe-0/0/23
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: xe-0/0/24
+    description:
+    # speed: 25g # 10G if commented : valid values are 1g/25g. This setting will be applied to this interface and the 3 next
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: xe-0/0/25
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: xe-0/0/26
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: xe-0/0/27
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: xe-0/0/28
+    description:
+    # speed: 25g # 10G if commented : valid values are 1g/25g. This setting will be applied to this interface and the 3 next
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: xe-0/0/29
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: xe-0/0/30
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: xe-0/0/31
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: xe-0/0/32
+    description:
+    # speed: 25g # 10G if commented : valid values are 1g/25g. This setting will be applied to this interface and the 3 next
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: xe-0/0/33
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: xe-0/0/34
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: xe-0/0/35
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: xe-0/0/36
+    description:
+    # speed: 25g # 10G if commented : valid values are 1g/25g. This setting will be applied to this interface and the 3 next
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: xe-0/0/37
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: xe-0/0/38
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: xe-0/0/39
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: xe-0/0/40
+    description:
+    # speed: 25g # 10G if commented : valid values are 1g/25g. This setting will be applied to this interface and the 3 next
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: xe-0/0/41
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: xe-0/0/42
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: xe-0/0/43
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: ge-0/0/44
+    description:
+    speed: 1g # 10G if commented : valid values are 1g/25g. This setting will be applied to this interface and the 3 next
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: ge-0/0/45
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: ge-0/0/46
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+  - name: ge-0/0/47
+    description:
+    # toip: true
+    # poe: true
+    # native_vlan:
+    # trunk: true
+    trusted: true
+    vlans:
+      - management
+
+
+
+
+
+
+  #######################################
+  # Ports QSFP28 (40G:"et" / 100G:"et") #
+  #######################################
+  - name: et-0/0/48
+    description:
+    speed: 100g # 40g if commented
+    # native_vlan:
+    trunk: true
+    trusted: true
+    vlans:
+      - all
+
+  - name: et-0/0/49
+    description:
+    speed: 100g # 40g if commented
+    # native_vlan:
+    trunk: true
+    trusted: true
+    vlans:
+      - all
+
+  - name: et-0/0/50
+    description:
+    speed: 100g # 40g if commented
+    # native_vlan:
+    trunk: true
+    trusted: true
+    vlans:
+      - all
+
+  - name: et-0/0/51
+    description:
+    speed: 100g # 40g if commented
+    # native_vlan:
+    trunk: true
+    trusted: true
+    vlans:
+      - all
+
+  - name: et-0/0/52
+    description:
+    speed: 100g # 40g if commented
+    # native_vlan:
+    trunk: true
+    trusted: true
+    vlans:
+      - all
+
+  - name: et-0/0/53
+    description:
+    speed: 100g # 40g if commented
+    # native_vlan:
+    trunk: true
+    trusted: true
+    vlans:
+      - all
+
+  - name: et-0/0/54
+    description:
+    speed: 100g # 40g if commented
+    # native_vlan:
+    trunk: true
+    trusted: true
+    vlans:
+      - all
+
+  - name: et-0/0/55
+    description:
+    speed: 100g # 40g if commented
+    # native_vlan:
+    trunk: true
+    trusted: true
+    vlans:
+      - all

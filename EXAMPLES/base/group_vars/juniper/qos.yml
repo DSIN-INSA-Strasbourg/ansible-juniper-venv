@@ -1,0 +1,25 @@
+---
+
+# QoS - CoS
+ex_config_qos:
+  qos_EXAMPLE:
+    enabled: true
+    classes:
+      - name: expedited-forwarding
+        codepoints: "ef"
+        # queunum is required, as the default "expedited-forwarding" forwarding class doesn't exist on EX4600/EX4650
+        queuenum: "{{ cos_fc_expedited_forwarding_queuenum }}"
+        loss_priority: low
+        scheduler:
+          buffer_size: "10%"
+          transmit_rate: "10%"
+
+      - name: network-control
+        scheduler:
+          buffer_size: "10%"
+          transmit_rate: "10%"
+
+      - name: best-effort
+        scheduler:
+          buffer_size: "80%"
+          transmit_rate: "80%"

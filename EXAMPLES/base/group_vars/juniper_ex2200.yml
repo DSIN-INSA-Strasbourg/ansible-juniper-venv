@@ -1,0 +1,15 @@
+---
+ex_firmware_dir: "EX2200"
+ex_firmware: "jinstall-ex-2200-12.3R12-S21-domestic-signed.tgz"
+
+ex_firmware_snapshot_cmd: "request system snapshot media internal slice alternate"
+
+# Valid values are sha256 and md5. You really should use sha256.
+# md5 is kept for old devices running a firmware on v12 or below,
+# as sha256 isn't available before v15
+#
+# set to md5 as ex_firmware is set to v12
+ex_config_password_hashtype: md5
+
+# Default cos forwarding-class "expedited-forwarding" queue number is 5 on legacy devices
+cos_fc_expedited_forwarding_queuenum: 5

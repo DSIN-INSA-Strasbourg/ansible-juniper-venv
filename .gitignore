@@ -1,0 +1,9 @@
+*.retry
+/.ansible/
+/.venv*
+/.vscode/
+/network
+/host_vars
+/group_vars
+__pycache__/
+*.pyc
