@@ -81,8 +81,8 @@ Si les pré-requis sont satisfaits, il suffit de lancer l'une de ces commandes, 
 
 #### Roles
 
-- [insa_strasbourg.juniper.ex_config](https://github.com/DSIN-INSA-Strasbourg/ansible-juniper-collection/blob/main/collections/ansible_collections/insa_strasbourg/juniper/docs/ex_config.fr.md)
-- [insa_strasbourg.juniper.ex_firmware](https://github.com/DSIN-INSA-Strasbourg/ansible-juniper-collection/blob/main/collections/ansible_collections/insa_strasbourg/juniper/docs/ex_firmware.fr.md)
+- [`insa_strasbourg.juniper.ex_config`](https://github.com/DSIN-INSA-Strasbourg/ansible-juniper-collection/blob/main/collections/ansible_collections/insa_strasbourg/juniper/docs/ex_config.fr.md) : déployer la configuration sur les commutateurs Juniper EX
+- [`insa_strasbourg.juniper.ex_firmware`](https://github.com/DSIN-INSA-Strasbourg/ansible-juniper-collection/blob/main/collections/ansible_collections/insa_strasbourg/juniper/docs/ex_firmware.fr.md) : déployer des firmwares sur les commutateurs Juniper EX
 
 #### Playbooks
 
