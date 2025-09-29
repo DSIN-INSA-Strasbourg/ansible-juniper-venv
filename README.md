@@ -41,7 +41,7 @@ The virtualenv creation script was created and tested under Ubuntu. It uses the 
 5. Checking that direnv has loaded correctly, and that its hook exists
 6. Deleting and creating the virtalenv in the `.venv-ansible` folder, unless the `-e` or `--dont-recreate-venv` option was specified
 7. Deleting the Ansible cache folder `.ansible` containing roles and collections, unless the `-d` or `--dont-delete-ansible-dir` option was specified
-8. Installing Ansible and the Python `wheel` dependencies, as well as those contained in the `requirements-python.txt` file - unless the `-p` or `--dont-install-python-requirements` option was specified
+8. Installing Ansible and the Python `wheel` dependencies, as well as those contained in the `requirements-python.txt` file - unless the `-p` or `--dont-install-python-requirements` option was specified. **This installation includes a patch for `ncclient` to connect to legacy (non-ELS) Juniper switches**
 9. Installing Ansible dependencies (collections/roles) based on the contents of the `requirements.yml` file - unless the `-a` or `--dont-install-ansible-requirements` option was specified
 10. Installing ansible-lint according to the contents of the `requirements-python-ansible-lint.txt` file - only if the `-l` or `--install-ansible-lint` option was specified
 11. Installing the VSCode Ansible extension `redhat.ansible` - only if the `-c` or `--install-ansible-vscode-extensions` option was specified
