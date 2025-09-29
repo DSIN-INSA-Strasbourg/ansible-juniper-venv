@@ -2,4 +2,4 @@
 # Avant d'ajouter une collection dans ce fichier, vérifier qu'elle ne soit pas déjà installée avec Ansible
 # avec la commande "ansible-galaxy collection list"
 collections:
-  - name: https://github.com/DSIN-INSA-Strasbourg/ansible-juniper-collection/releases/download/1.0.2/insa_strasbourg-juniper-1.0.2.tar.gz
+  - name: https://github.com/DSIN-INSA-Strasbourg/ansible-juniper-collection/releases/download/1.0.3/insa_strasbourg-juniper-1.0.3.tar.gz
