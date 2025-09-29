@@ -2,6 +2,19 @@
 
 Ce projet fournit tout le nécessaire pour mettre en œuvre un virtualenv prêt à l'emploi permettant d'exploiter la [collection insa_strasbourg.juniper](https://github.com/DSIN-INSA-Strasbourg/ansible-juniper-collection/), ainsi que des exemples de configuration.
 
+## Équipements pris en charge
+
+| Gamme  | Support                                |
+| ------ | -------------------------------------- |
+| EX4650 | 🚧 Intégration en cours                |
+| EX4600 | ✅                                     |
+| EX4300 | ✅                                     |
+| EX4100 | ✅                                     |
+| EX3400 | ✅                                     |
+| EX3300 | ✅                                     |
+| EX2300 | ⚠️ Pas testé, mais devrait fonctionner |
+| EX2200 | ✅                                     |
+
 ## Récupération des fichiers du projet
 
 ```bash

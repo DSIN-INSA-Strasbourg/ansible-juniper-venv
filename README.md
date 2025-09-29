@@ -2,6 +2,19 @@
 
 This project provides everything needed to implement a ready-to-use virtualenv to leverage the [insa_strasbourg.juniper collection](https://github.com/DSIN-INSA-Strasbourg/ansible-juniper-collection/), along with configuration examples.
 
+## Supported devices
+
+| Device | Support                        |
+| ------ | ------------------------------ |
+| EX4650 | 🚧 Work in progress            |
+| EX4600 | ✅                             |
+| EX4300 | ✅                             |
+| EX4100 | ✅                             |
+| EX3400 | ✅                             |
+| EX3300 | ✅                             |
+| EX2300 | ⚠️ Not tested, but should work |
+| EX2200 | ✅                             |
+
 ## Get project files
 
 ```bash
