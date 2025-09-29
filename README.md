@@ -77,10 +77,20 @@ If the requirements are met, simply run one of these commands, depending on your
 
 ## Using example files to create the initial configuration
 
-### Comprehensive roles documentation
+### Documentation
 
-- [insa_strasbourg.ex_config](https://github.com/DSIN-INSA-Strasbourg/ansible-juniper-collection/blob/main/collections/ansible_collections/insa_strasbourg/juniper/docs/ex_config.fr.md)
-- [insa_strasbourg.ex_firmware](https://github.com/DSIN-INSA-Strasbourg/ansible-juniper-collection/blob/main/collections/ansible_collections/insa_strasbourg/juniper/docs/ex_firmware.fr.md)
+#### Roles
+
+- [insa_strasbourg.juniper.ex_config](https://github.com/DSIN-INSA-Strasbourg/ansible-juniper-collection/blob/main/collections/ansible_collections/insa_strasbourg/juniper/docs/ex_config.fr.md)
+- [insa_strasbourg.juniper.ex_firmware](https://github.com/DSIN-INSA-Strasbourg/ansible-juniper-collection/blob/main/collections/ansible_collections/insa_strasbourg/juniper/docs/ex_firmware.fr.md)
+
+#### Playbooks
+
+- [`insa_strasbourg.juniper.ex_config`](https://github.com/DSIN-INSA-Strasbourg/ansible-juniper-collection/blob/main/collections/ansible_collections/insa_strasbourg/juniper/docs/ex_config.fr.md#d%C3%A9ploiement): deploy configuration on Juniper EX switches
+- [`insa_strasbourg.juniper.ex_firmware`](https://github.com/DSIN-INSA-Strasbourg/ansible-juniper-collection/blob/main/collections/ansible_collections/insa_strasbourg/juniper/docs/ex_config.fr.md#d%C3%A9ploiement): deploy firmwares on Juniper EX switches
+- `insa_strasbourg.juniper.ex_plan_reboot`: schedule a reboot on Juniper EX switches, or cancel a scheduled reboot
+- `insa_strasbourg.juniper.ex_plan_shutdown`: schedule a shutdown on Juniper EX switches, or cancel a scheduled shutdown
+- `insa_strasbourg.juniper.ex_show_plan`: print any scheduled reboot or shutdown on Juniper EX switches
 
 ### Copying the example files
 
@@ -159,8 +169,3 @@ ansible-playbook -i network -l juniper_datacenter insa_strasbourg.juniper.ex_con
 # Generate offline configuration for specified switches
 ansible-playbook -i network -l distribution-003,distribution-004 insa_strasbourg.juniper.ex_config --tags offline
 ```
-
-### Other deployment options
-
-- [insa_strasbourg.ex_config](https://github.com/DSIN-INSA-Strasbourg/ansible-juniper-collection/blob/main/collections/ansible_collections/insa_strasbourg/juniper/docs/ex_config.fr.md#d%C3%A9ploiement)
-- [insa_strasbourg.ex_firmware](https://github.com/DSIN-INSA-Strasbourg/ansible-juniper-collection/blob/main/collections/ansible_collections/insa_strasbourg/juniper/docs/ex_config.fr.md#d%C3%A9ploiement)
