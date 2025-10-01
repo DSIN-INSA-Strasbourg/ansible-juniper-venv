@@ -1,5 +1,10 @@
 # ansible-juniper-example - virtualenv Ansible prêt à l'emploi pour utiliser la [collection insa_strasbourg.juniper](https://github.com/DSIN-INSA-Strasbourg/ansible-juniper-collection/)
 
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/DSIN-INSA-Strasbourg/ansible-juniper-venv/blob/main/README.md)
+[![fr](https://img.shields.io/badge/lang-fr-blue.svg)](https://github.com/DSIN-INSA-Strasbourg/ansible-juniper-venv/blob/main/README.fr.md)
+
+---
+
 Ce projet fournit tout le nécessaire pour mettre en œuvre un virtualenv prêt à l'emploi permettant d'exploiter la [collection insa_strasbourg.juniper](https://github.com/DSIN-INSA-Strasbourg/ansible-juniper-collection/), ainsi que des exemples de configuration.
 
 ## Équipements pris en charge
