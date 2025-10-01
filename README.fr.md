@@ -92,7 +92,7 @@ Si les pré-requis sont satisfaits, il suffit de lancer l'une de ces commandes, 
 #### Playbooks
 
 - [`insa_strasbourg.juniper.ex_config`](https://github.com/DSIN-INSA-Strasbourg/ansible-juniper-collection/blob/main/collections/ansible_collections/insa_strasbourg/juniper/docs/ex_config.fr.md#d%C3%A9ploiement) : déployer la configuration sur les commutateurs Juniper EX
-- [`insa_strasbourg.juniper.ex_firmware`](https://github.com/DSIN-INSA-Strasbourg/ansible-juniper-collection/blob/main/collections/ansible_collections/insa_strasbourg/juniper/docs/ex_config.fr.md#d%C3%A9ploiement) : déployer des firmwares sur les commutateurs Juniper EX
+- [`insa_strasbourg.juniper.ex_firmware`](https://github.com/DSIN-INSA-Strasbourg/ansible-juniper-collection/blob/main/collections/ansible_collections/insa_strasbourg/juniper/docs/ex_firmware.fr.md#d%C3%A9ploiement) : déployer des firmwares sur les commutateurs Juniper EX
 - `insa_strasbourg.juniper.ex_plan_reboot` : planifier un redémarrage sur les commutateurs Juniper EX ou annuler un redémarrage programmé
 - `insa_strasbourg.juniper.ex_plan_shutdown` : planifier un arrêt sur les commutateurs Juniper EX ou annuler un arrêt programmé
 - `insa_strasbourg.juniper.ex_show_plan` : afficher tout redémarrage ou arrêt programmé sur les commutateurs Juniper EX
