@@ -1,6 +1,6 @@
 ---
 # Documentation:
-# https://github.com/DSIN-INSA-Strasbourg/ansible-juniper-collection/blob/main/collections/ansible_collections/insa_strasbourg/juniper/docs/ex_config.fr.md
+# https://github.com/DSIN-INSA-Strasbourg/ansible-juniper-collection/blob/main/collections/ansible_collections/insa_strasbourg/juniper/docs/ex_config.md
 
 ex_config_hostname: distribution-003
 ex_config_location: CHANGE ME
