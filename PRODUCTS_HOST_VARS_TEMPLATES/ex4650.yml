@@ -18,8 +18,8 @@ ex_config_interfaces:
   #      port speed if set for quad ports       #
   ###############################################
   - name: et-0/0/0
-    description:
     speed: 25g # 10G if commented : valid values are 1g/25g. This setting will be applied to this interface and the 3 next
+    description:
     # toip: true
     # poe: true
     # native_vlan:
@@ -59,8 +59,8 @@ ex_config_interfaces:
       - management
 
   - name: xe-0/0/4
-    description:
     # speed: 25g # 10G if commented : valid values are 1g/25g. This setting will be applied to this interface and the 3 next
+    description:
     # toip: true
     # poe: true
     # native_vlan:
@@ -100,8 +100,8 @@ ex_config_interfaces:
       - management
 
   - name: xe-0/0/8
-    description:
     # speed: 25g # 10G if commented : valid values are 1g/25g. This setting will be applied to this interface and the 3 next
+    description:
     # toip: true
     # poe: true
     # native_vlan:
@@ -141,8 +141,8 @@ ex_config_interfaces:
       - management
 
   - name: xe-0/0/12
-    description:
     # speed: 25g # 10G if commented : valid values are 1g/25g. This setting will be applied to this interface and the 3 next
+    description:
     # toip: true
     # poe: true
     # native_vlan:
@@ -182,8 +182,8 @@ ex_config_interfaces:
       - management
 
   - name: xe-0/0/16
-    description:
     # speed: 25g # 10G if commented : valid values are 1g/25g. This setting will be applied to this interface and the 3 next
+    description:
     # toip: true
     # poe: true
     # native_vlan:
@@ -223,8 +223,8 @@ ex_config_interfaces:
       - management
 
   - name: xe-0/0/20
-    description:
     # speed: 25g # 10G if commented : valid values are 1g/25g. This setting will be applied to this interface and the 3 next
+    description:
     # toip: true
     # poe: true
     # native_vlan:
@@ -264,8 +264,8 @@ ex_config_interfaces:
       - management
 
   - name: xe-0/0/24
-    description:
     # speed: 25g # 10G if commented : valid values are 1g/25g. This setting will be applied to this interface and the 3 next
+    description:
     # toip: true
     # poe: true
     # native_vlan:
@@ -305,8 +305,8 @@ ex_config_interfaces:
       - management
 
   - name: xe-0/0/28
-    description:
     # speed: 25g # 10G if commented : valid values are 1g/25g. This setting will be applied to this interface and the 3 next
+    description:
     # toip: true
     # poe: true
     # native_vlan:
@@ -346,8 +346,8 @@ ex_config_interfaces:
       - management
 
   - name: xe-0/0/32
-    description:
     # speed: 25g # 10G if commented : valid values are 1g/25g. This setting will be applied to this interface and the 3 next
+    description:
     # toip: true
     # poe: true
     # native_vlan:
@@ -387,8 +387,8 @@ ex_config_interfaces:
       - management
 
   - name: xe-0/0/36
-    description:
     # speed: 25g # 10G if commented : valid values are 1g/25g. This setting will be applied to this interface and the 3 next
+    description:
     # toip: true
     # poe: true
     # native_vlan:
@@ -428,8 +428,8 @@ ex_config_interfaces:
       - management
 
   - name: xe-0/0/40
-    description:
     # speed: 25g # 10G if commented : valid values are 1g/25g. This setting will be applied to this interface and the 3 next
+    description:
     # toip: true
     # poe: true
     # native_vlan:
@@ -469,8 +469,8 @@ ex_config_interfaces:
       - management
 
   - name: ge-0/0/44
-    description:
     speed: 1g # 10G if commented : valid values are 1g/25g. This setting will be applied to this interface and the 3 next
+    description:
     # toip: true
     # poe: true
     # native_vlan:
@@ -518,8 +518,8 @@ ex_config_interfaces:
   # Ports QSFP28 (40G:"et" / 100G:"et") #
   #######################################
   - name: et-0/0/48
-    description:
     speed: 100g # 40g if commented
+    description:
     # native_vlan:
     trunk: true
     trusted: true
@@ -527,8 +527,8 @@ ex_config_interfaces:
       - all
 
   - name: et-0/0/49
-    description:
     speed: 100g # 40g if commented
+    description:
     # native_vlan:
     trunk: true
     trusted: true
@@ -536,8 +536,8 @@ ex_config_interfaces:
       - all
 
   - name: et-0/0/50
-    description:
     speed: 100g # 40g if commented
+    description:
     # native_vlan:
     trunk: true
     trusted: true
@@ -545,8 +545,8 @@ ex_config_interfaces:
       - all
 
   - name: et-0/0/51
-    description:
     speed: 100g # 40g if commented
+    description:
     # native_vlan:
     trunk: true
     trusted: true
@@ -554,8 +554,8 @@ ex_config_interfaces:
       - all
 
   - name: et-0/0/52
-    description:
     speed: 100g # 40g if commented
+    description:
     # native_vlan:
     trunk: true
     trusted: true
@@ -563,8 +563,8 @@ ex_config_interfaces:
       - all
 
   - name: et-0/0/53
-    description:
     speed: 100g # 40g if commented
+    description:
     # native_vlan:
     trunk: true
     trusted: true
@@ -572,8 +572,8 @@ ex_config_interfaces:
       - all
 
   - name: et-0/0/54
-    description:
     speed: 100g # 40g if commented
+    description:
     # native_vlan:
     trunk: true
     trusted: true
@@ -581,8 +581,8 @@ ex_config_interfaces:
       - all
 
   - name: et-0/0/55
-    description:
     speed: 100g # 40g if commented
+    description:
     # native_vlan:
     trunk: true
     trusted: true
