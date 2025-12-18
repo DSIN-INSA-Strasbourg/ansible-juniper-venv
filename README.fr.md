@@ -11,7 +11,7 @@ Ce projet fournit tout le nécessaire pour mettre en œuvre un virtualenv prêt 
 
 | Gamme  | Support                                |
 | ------ | -------------------------------------- |
-| EX4650 | 🚧 Intégration en cours                |
+| EX4650 | ✅                                     |
 | EX4600 | ✅                                     |
 | EX4300 | ✅                                     |
 | EX4100 | ✅                                     |
